@@ -1,3 +1,68 @@
+@font-face {
+    font-family: "Peepo Regular";
+    src: url("b319832aeb7144538fd98da7e7246c04.eot");
+    /* IE9*/
+    src: url("b319832aeb7144538fd98da7e7246c04.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("b319832aeb7144538fd98da7e7246c04.woff2") format("woff2"), /* chrome、firefox */
+    url("b319832aeb7144538fd98da7e7246c04.woff") format("woff"), /* chrome、firefox */
+    url("b319832aeb7144538fd98da7e7246c04.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("b319832aeb7144538fd98da7e7246c04.svg#Peepo Regular") format("svg");
+    /* iOS 4.1- */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.item0 {
+    color: white;
+    font-family: "Peepo Regular";
+    text-align: start;
+    font-size: 200%;
+}
+
+.item0>h1 {
+    font-size: 200%;
+}
+
+.item1 {
+    background-image: url(../IMG/button.png);
+    background-size: cover;
+    grid-area: item1;
+    height: 163px;
+    width: 300px;
+    margin-top: 100px;
+    font-family: "Peepo Regular";
+    text-align: center;
+}
+
+.item2 {
+    background-image: url(../IMG/button.png);
+    background-size: cover;
+    grid-area: item2;
+    height: 163px;
+    width: 300px;
+    font-family: "Peepo Regular";
+    text-align: center;
+}
+
+.item3 {
+    background-image: url(../IMG/button.png);
+    background-size: cover;
+    grid-area: item3;
+    height: 163px;
+    width: 300px;
+    font-family: "Peepo Regular";
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 'item0' 'item1' 'item2' 'item3';
+    grid-gap: 10px;
+    padding-left: 50px;
+}
+
 .nav-text {
     text-shadow: 0px 1px black;
 }
@@ -22,4 +87,12 @@
 a {
     text-decoration: none !important;
     color: black !important;
+}
+
+.item-link {
+    font-size: 300%;
+    font-weight: bolder;
+    padding-top: 50px;
+    margin-left: 25px;
+    text-align: center;
 }
